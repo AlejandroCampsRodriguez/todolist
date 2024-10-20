@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prociono&display=swap');
+
+
+body{
+  background-color: black;
+  background-size: 400%;
+  animation: cambiarColor 2s ease-in alternate infinite;
+}
+
+
+@keyframes cambiarColor{
+  0%{
+    background-position: 25% 650%;
+  }
+  100%{
+    background-position: 50% 100%; 
+  }
+}
+
+
+button{
+  padding: 10px;
+  background-color: #2e518b;
+  color:white;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin:10px;
+  border:none;
+}
+
+input{
+  width:50%;
+  padding: 10px;
+  border-radius: 20px;
+  border:none;
+  outline:none;
+}
+
+.titulo{
+  display:flex;
+  justify-content: center;
+}
+
+
+.titulo-item{
+display: flex;
+justify-content: center;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+}
+
+.form-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.todList{
+  color:bisque;
+  font-family: "Prociono", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
